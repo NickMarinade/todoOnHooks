@@ -1,8 +1,7 @@
 import React, {useContext} from 'react'
 import {Context} from './context'
 
-
-export default function TodoItem({title, id, completed}) { 
+export default function TodoItem({title, id, completed}) {
   const {dispatch} = useContext(Context)
 
   const cls = ['todo']
